@@ -1,0 +1,62 @@
+body {
+  background-color: #161b22;
+  color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.sub-title {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+
+}
+
+.player-selection {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 70px;
+}
+
+.rock {
+  width: 80px;
+  height: 80px;
+}
+
+.paper {
+  width: 80px;
+  height: 80px;
+}
+
+.scissors {
+  width: 80px;
+  height: 80px;
+}
+
+.round-results {
+  text-align: center;
+  margin: 50px;
+}
+
+
+
+
